@@ -31,7 +31,7 @@ $category = $_POST['department'];
     <tr>
       <td>年齢</td>
       <td>
-        <?php echo $name; ?>
+        <?php echo $age; ?>
       </td>
     </tr>
     <tr>
