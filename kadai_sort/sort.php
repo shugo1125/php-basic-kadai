@@ -12,25 +12,25 @@
     // ソートする配列を宣言
     $nums = [15, 4, 18, 23, 10];
 
-    function sort_2way($nums, $order)
+    function sort_2way($array, $order)
     {
       if ($order) {
         echo '昇順にソートします' . "<br>";
 
-        sort($nums); // 昇順にソート
+        sort($array); // 昇順にソート
 
         // 値を縦に出力
-        foreach ($nums as $num) {
-          echo $num . "<br>";
+        foreach ($array as $ar) {
+          echo $ar . "<br>";
         }
       } else {
         echo '降順にソートします' . "<br>";
 
-        rsort($nums); // 昇順にソート
+        rsort($array); // 昇順にソート
 
         // 値を縦に出力
-        foreach ($nums as $num) {
-          echo $num . "<br>";
+        foreach ($array as $ar) {
+          echo $ar . "<br>";
         }
       }
     }
